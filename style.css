@@ -70,12 +70,13 @@ footer img {
     height: 30vh;
     width: 20vw;
     background-color: #505FF9;
-    margin: 2rem;
+    margin: 1rem;
     color: #fff;
     border: solid black 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+        ;
 }
 
 footer {
@@ -90,6 +91,12 @@ footer {
 .main-content{
     display: flex;
     flex-wrap:wrap;
+    gap: 10px 50px;
 }
 
+.image-container:nth-child(3n + 2){
+    flex-grow: 1;
+
+
+}
 /* CODE YOUR FLEXBOXES HERE */
